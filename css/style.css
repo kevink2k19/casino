@@ -1,0 +1,142 @@
+body{
+  color:#fff;
+}
+h1,h2,h3{
+  font-family: 'Teko', sans-serif;
+  color:#fff;
+}
+span{
+  font-family: 'Teko', sans-serif;
+}
+p{
+  font-family: 'Teko',sans-serif;
+  font-weight: lighter;
+}
+/* Headear */
+.header{
+  background-image:url("../img/casinohead.jpg");
+  background-color: #ffaa64;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:relative;
+
+}
+/* navigation container */
+.container-fluid{
+  padding:3% 13% 0;
+}
+/* Navingation  */
+.navbar{
+  padding:0;
+}
+.navbar-brand{
+  font-family: 'Anton', sans-serif;
+  font-size: 2.5rem;
+  color:#ffc75f;
+}
+/* Container */
+.container{
+  padding:2% 10%;
+  color:#fff;
+}
+.container-head{
+  font-size: 4.5rem;
+}
+.container-p{
+  font-size: 25px;
+}
+
+/* Bottom */
+.btn-cus{
+  width:150px;
+  margin:5px 10px;
+}
+.language{
+  position: absolute;
+  top:75%;
+  right: 0;
+  color:#fff;
+}
+@media (max-width:1024px){
+  .language{
+    position: static;
+    text-align: right;
+  }
+}
+
+/* Porpular  */
+.sec-section{
+  background: rgb(32,19,40);
+  background: linear-gradient(180deg, rgba(32,19,40,1) 0%, rgba(74,5,122,1) 100%);
+  text-align:center;
+}
+.bWin{
+  padding:3% 15%;
+}
+.bWin-head{
+  font-size: 5rem;
+}
+
+.bWin-amount{
+  font-size: 3rem;
+}
+.bWin-p{
+  font-size:1.5rem;
+}
+/* Horizontal Line */
+hr{
+ width:10%;
+ margin:0 auto;
+ border-top:8px;
+ border-style:dotted;
+ border-color: #ccc;
+ background:none;
+}
+
+/* Top Game */
+.top-game{
+padding-top:3%;
+}
+.tg-head{
+  font-size: 4rem;
+  padding:0;
+  margin:0;
+}
+.tg-box{
+  color:#000;
+  background:#fff;
+  padding:2% 5%;
+  border-radius:5px;
+}
+.tg-headText{
+  color:#000;
+}
+/* Carousel */
+.cs-margin{
+  padding:0 15% 3%;
+}
+/* Promotion section */
+.promo-sec{
+  padding:3% 15%;
+  color:#000;
+}
+.box-shadow{
+  box-shadow:0 0.25rem 0.75rem #ccc;
+}
+.promo-headText{
+  color:#000;
+}
+/* call to action */
+.cta{
+  padding:3% 13%;
+}
+/* footer */
+.footer{
+  text-align: center;
+  padding:3% 15% 0;
+  color:#000;
+}
+.social-ico{
+  margin:1% 2%;
+}
